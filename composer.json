@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": {"HeadFirst\\": "src/"}
+    },
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    }
+}

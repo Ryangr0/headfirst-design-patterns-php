@@ -1,0 +1,11 @@
+<?php
+
+namespace HeadFirst\StrategyPattern\DuckCalls;
+
+class Normal extends DuckCall
+{
+    public function __construct()
+    {
+        $this->quackBehavior = new \HeadFirst\StrategyPattern\Behaviors\Quack();
+    }
+}
